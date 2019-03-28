@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+
+    <!-- Reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+
+
+</head>
+<body>
+        <h1>Rock Paper Scissors Multiplayer Game</h1>
+
+        <div id="container">
+            <div id="playerInfo"></div>
+            <div id="playerTurn"></div>
+            <div id="playingArea">
+                <div id="player1">
+                    <div id="p1name">Waiting for Player 1</div>
+                    <div id="p1choices"></div>
+                    <div id="p1stats"></div>
+                </div>
+                <div id="results"></div>
+                <div id="player2">
+                    <div id="p2name">Waiting for Player 2</div>
+                    <div id="p2choices"></div>
+                    <div id="p2stats"></div>
+                </div>
+            </div>
+        </div>
+        <div id="chatbox"></div>
+        <form id="messageBar">
+            <input id="messageBox" type="text" />
+            <button id="taunt" type="submit">chat</button>
+        </form>
+
+
+
+
+
+
+
+<!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Code to the JavaScript File -->
+  <script src="assets/javascript/logic.js"></script>
+
+  
+</body>
+</html>
